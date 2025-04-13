@@ -1,18 +1,10 @@
 {
     "compilerOptions": {
-        "lib": [
-            "dom",
-            "dom.iterable",
-        ],
-        "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node",
+        "target": "es6",
         "outDir": "./dist",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "sourceMap": true,
+        "rootDir": "./",
         "strict": true,
-        "noImplicitAny": true,
-        "downlevelIteration": true
-    }
+        "esModuleInterop": true
+    },
+    "include": ["formatting.ts"]
 }

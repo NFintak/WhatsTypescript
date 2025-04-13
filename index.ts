@@ -2,9 +2,9 @@
 import './style.css';
 
 
-const form = document.createElement("form");
+const form: HTMLFormElement = document.querySelector('#defineform');
 
-form.onsubmit = (_) => {
+form.onsubmit = () => {
   const formData = new FormData(form);
 
   console.log(formData);
@@ -12,4 +12,3 @@ form.onsubmit = (_) => {
   console.log(text);
   return false; // prevent reload
 };
-
