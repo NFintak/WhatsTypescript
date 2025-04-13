@@ -1,0 +1,20 @@
+{
+  "name": "whatstypescript",
+  "version": "1.0.0",
+  "description": "what is typescript?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NFintak/WhatsTypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NFintak/WhatsTypescript/issues"
+  },
+  "homepage": "https://github.com/NFintak/WhatsTypescript#readme"
+}

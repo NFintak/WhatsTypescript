@@ -2,8 +2,7 @@
 import './style.css';
 
 
-const form: HTMLFormElement = document.querySelector('#defineform');
-
+const form: HTMLFormElement = document.querySelector("form");
 
 form.onsubmit = () => {
   const formData = new FormData(form);
