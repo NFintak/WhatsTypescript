@@ -59,6 +59,7 @@
       <form class="d-flex" id="defineform">
         <input class="form-control me-2" type="search" name="defineword" placeholder="What word?" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Define</button>
+        <div id="definition" class="definition"></div>
       </form>
     </div>
   </div>
@@ -67,21 +68,23 @@
 <main class="container">
   <div class="bg-light p-5 rounded">
     <h1>Definition</h1>
-    <p class="lead">Use this part of the page to present your results from the API call.</p>
+    <div id="result"></div>
+    <p class="lead">put word here</p>
     <ul class="list-unstyled">
-        <li>This is a list. Your word could go here.</li>
-        <li>It appears completely unstyled.</li>
-        <li>Maybe your multiple definitions of the word are here?</li>
-        <li>Structurally, it's still a list.</li>
-        <li>However, this style only applies to immediate child elements.</li>
-        <li>Nested lists: (maybe synonyms and antonyms?)
+        <li>phonetics?</li>
+        <li>part of speech</li>
+        <li>definitions</li>
+        <li>synonyms
           <ul>
-            <li>are unaffected by this style</li>
-            <li>will still show a bullet</li>
-            <li>and have appropriate left margin</li>
+            <li>put synonyms here</li>
           </ul>
         </li>
-        <li>This may still come in handy in some situations.</li>
+        <li>antonyms
+          <ul>
+            <li>put antonyms here</li>
+          </ul>
+        </li>
+        <li>Search for another word?</li>
       </ul>
   </div>
 </main>
